@@ -1,6 +1,7 @@
 {
   "name": "tomato_internship",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -12,6 +13,8 @@
   "description": "",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
+    "@google/generative-ai": "^0.24.1",
+    "@openrouter/sdk": "^0.12.22",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
